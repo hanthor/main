@@ -14,13 +14,10 @@
                 "fuse",
                 "fzf",
                 "google-noto-sans-balinese-fonts",
-                "google-noto-sans-cjk-fonts",
                 "google-noto-sans-javanese-fonts",
                 "google-noto-sans-sundanese-fonts",
-                "grub2-tools-extra",
                 "heif-pixbuf-loader",
                 "htop",
-                "intel-vaapi-driver",
                 "just",
                 "kernel-tools",
                 "libcamera",
@@ -40,8 +37,6 @@
                 "pam-u2f",
                 "pam_yubico",
                 "pamu2fcfg",
-                "pipewire-libs-extra",
-                "pipewire-plugin-libcamera",
                 "powerstat",
                 "smartmontools",
                 "solaar-udev",
@@ -84,7 +79,6 @@
             "all": [
                 "fdk-aac-free",
                 "ffmpeg-free",
-                "google-noto-sans-cjk-vf-fonts",
                 "libavcodec-free",
                 "libavdevice-free",
                 "libavfilter-free",
@@ -115,7 +109,6 @@
         },
         "exclude": {
             "all": [
-                "default-fonts-cjk-sans"
             ]
         }
     },
@@ -129,8 +122,19 @@
         },
         "exclude": {
             "all": [
-                "default-fonts-cjk-sans"
+            ]
+        },
+    "41": {
+        "include": {
+            "all": [],
+            "kinoite": [
+                "kf6-kimageformats",
+                "qt6-qtimageformats"
+            ]
+        },
+        "exclude": {
+            "all": [
             ]
         }
-    }
+    }}
 }
